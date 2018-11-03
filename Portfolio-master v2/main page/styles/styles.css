@@ -69,10 +69,15 @@ input{
   text-align: center;
   padding: 10px;
 }
+.btn-group-vertical{
+  float: right;
+  top: 150px;
+}
 
 *{
   box-sizing: border-box;
 }
+
 @media only screen and (max-width: 600px) {
       /* phones */
       .col-s-1 {width: 8.33%;}
@@ -106,8 +111,8 @@ input{
 
      }
      .btn-group-vertical{
-       position: sticky;
-       top: 140px;
+       top: 200px;
+       right: 60px;
      }
 
 }
